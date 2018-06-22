@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31626899-247e-4d5b-88e2-498892ea2c99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/app/Article.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/app/Comment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/app/Http/Controllers/ArticleController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/app/Http/Resources/ArticleRelationshipResource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/app/Http/Resources/ArticleResource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/app/Http/Resources/ArticlesResource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/app/People.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/factories/ArticleFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/factories/CommentFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/factories/PeopleFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/migrations/2018_06_21_212540_create_articles_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/migrations/2018_06_21_213733_create_people_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/migrations/2018_06_21_213806_create_comments_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/migrations/2018_06_21_214514_set_fk_on_people.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/seeds/ArticleTableSeeder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker.app/database/seeds/PeopleTableSeeder.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/json-rest-api.iml" afterPath="$PROJECT_DIR$/.idea/json-rest-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker.app/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/docker.app/app/Http/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker.app/composer.json" afterPath="$PROJECT_DIR$/docker.app/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker.app/composer.lock" afterPath="$PROJECT_DIR$/docker.app/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker.app/config/app.php" afterPath="$PROJECT_DIR$/docker.app/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker.app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/docker.app/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker.app/routes/api.php" afterPath="$PROJECT_DIR$/docker.app/routes/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker.app/routes/web.php" afterPath="$PROJECT_DIR$/docker.app/routes/web.php" />
-    </list>
+    <list default="true" id="31626899-247e-4d5b-88e2-498892ea2c99" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +17,21 @@
       <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker.app/app/Http/Controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
+            <state relative-caret-position="317">
               <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker.app/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -242,6 +225,32 @@
               <item name="json-rest-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="json-rest-api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="json-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="json-rest-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker.app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="json-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="json-rest-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker.app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="json-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="json-rest-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker.app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="json-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="json-rest-api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker.app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -284,17 +293,18 @@
       <workItem from="1529509097153" duration="2479000" />
       <workItem from="1529606080432" duration="16231000" />
       <workItem from="1529629881432" duration="13986000" />
-      <workItem from="1529687649108" duration="6218000" />
+      <workItem from="1529687649108" duration="6490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38914000" />
+    <option name="totallyTimeSpent" value="39186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="-8" width="1291" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.282697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.282697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -470,13 +480,6 @@
         <state relative-caret-position="-1275">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker.app/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -711,9 +714,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker.app/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker.app/app/Http/Controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
+        <state relative-caret-position="317">
           <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
