@@ -2,14 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use App\Article;
-use App\Http\Resources\ArticleResource;
-use App\Http\Resources\ArticlesResource;
+use App\Http\Resources\ProductResource;
+use App\Http\Resources\ProductsResource;
+use App\Product;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
-class ArticleController extends Controller
+class ProductController extends Controller
 {
+    protected $user;
+
+    public function __construct()
+    {
+        $this->user = JWTAuth::parseToken()->authenticate();
+    }
     /**
      * Display a listing of the resource.
      *
@@ -17,7 +23,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        return new ArticlesResource(Article::all());
+        return new ProductsResource(Product::all());
     }
 
     /**
@@ -44,23 +50,23 @@ class ArticleController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Article  $article
+     * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Article $article)
+    public function show(Product $product)
     {
-        ArticleResource::withoutWrapping();
+        ProductResource::withoutWrapping();
 
-        return new ArticleResource($article);
+        return new ProductResource($product);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Article  $article
+     * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function edit(Article $article)
+    public function edit(Product $product)
     {
         //
     }
@@ -69,10 +75,10 @@ class ArticleController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Article  $article
+     * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Article $article)
+    public function update(Request $request, Product $product)
     {
         //
     }
@@ -80,10 +86,10 @@ class ArticleController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Article  $article
+     * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Article $article)
+    public function destroy(Product $product)
     {
         //
     }
