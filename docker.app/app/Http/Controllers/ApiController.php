@@ -3,15 +3,27 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\DB;
 use JWTAuth;
 use Validator;
 use Tymon\JWTAuth\Exceptions\JWTException;
-
+use App\User;
+use App\Http\Requests\RegisterFormRequest;
 
 class ApiController extends Controller
 {
+    public function register(RegisterFormRequest $request)
+    {
+        $user = new User;
+        $user->email = $request->email;
+        $user->name = $request->name;
+        $user->password = bcrypt($request->password);
+        $user->save();
+        return response([
+            'status' => 'success',
+            'data' => $user
+        ], 200);
+    }
+
     public function login(Request $request)
     {
         $credentials = $request->only('email', 'password');
@@ -51,11 +63,6 @@ class ApiController extends Controller
         ]);
     }
 
-    /**
-     * Logout
-     * Invalidate the token. User have to relogin to get a new token.
-     * @param Request $request 'header'
-     */
     public function logout(Request $request)
     {
         // Get JWT Token from the request header key "Authorization"

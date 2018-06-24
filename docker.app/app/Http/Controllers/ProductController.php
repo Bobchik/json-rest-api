@@ -23,6 +23,8 @@ class ProductController extends Controller
      */
     public function index()
     {
+        ProductsResource::withoutWrapping();
+
         return new ProductsResource(Product::all());
     }
 
