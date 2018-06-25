@@ -18,6 +18,7 @@ class ApiController extends Controller
         $user->name = $request->name;
         $user->password = bcrypt($request->password);
         $user->save();
+
         return response([
             'status' => 'success',
             'data' => $user
